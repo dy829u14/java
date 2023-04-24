@@ -16,8 +16,7 @@ public class Quiz08Exam {
 		for(int i=0; i<array.length; i++) {
 			a += array[i].length;
 			for(int j=0; j<array[i].length; j++) {
-				sum += array[i][j];
-				
+				sum += array[i][j];				
 				evr = sum/a;
 			}
 		}

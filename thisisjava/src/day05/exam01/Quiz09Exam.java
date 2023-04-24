@@ -8,6 +8,7 @@ public class Quiz09Exam {
 		// 키보드로부터 학생 수와 각 학생들의 점수를 입력받고 while문과 Scanner의 nextLine()
 		// 메소드를 이용해서 최고 점수 및 평균 점수를 출력하는 코드 작성
 		Scanner scan = new Scanner(System.in);
+		int[] scores = null;
 		
 		
 		
@@ -25,7 +26,7 @@ public class Quiz09Exam {
 				int stu = (int) Integer.parseInt(scan.nextLine());
 				int[] scores = new int[stu];
 			}
-			if(num.equals("2")) {
+			else if(num.equals("2")) {
 				for(int i : scores) {
 					System.out.println();
 				}

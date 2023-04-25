@@ -11,17 +11,17 @@ public class Quiz08Exam {
 		};
 		int sum = 0;
 		int a=0;
-		int evr = 0;
+		double avr = 0.0;
 		
 		for(int i=0; i<array.length; i++) {
 			a += array[i].length;
 			for(int j=0; j<array[i].length; j++) {
 				sum += array[i][j];				
-				evr = sum/a;
+				avr = sum/ (double)a;
 			}
 		}
 		System.out.println("전체의 합은 : "+sum);
-		System.out.println("전체의 평균은 : "+evr);
+		System.out.println("전체의 평균은 : "+avr);
 		
 		
 

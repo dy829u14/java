@@ -7,4 +7,5 @@
  */
 module thisisjava {
 	requires lombok;
+	requires java.desktop;
 }

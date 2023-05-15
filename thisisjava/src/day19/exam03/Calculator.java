@@ -1,0 +1,8 @@
+package day19.exam03;
+
+//함수형 인터페이스
+@FunctionalInterface
+public interface Calculator {
+	//추상 메소드
+	double calc(double x, double y);
+}

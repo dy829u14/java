@@ -11,6 +11,10 @@ public class Board {
 		this.writer = writer;
 	}
 
+	public Board(String string, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public String getSubject() {
 		return subject;
 	}

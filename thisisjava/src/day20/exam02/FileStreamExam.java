@@ -16,7 +16,6 @@ public class FileStreamExam {
 		Stream<String> stream = Files.lines(path, Charset.defaultCharset());
 		stream.forEach(line->System.out.println(line));
 		stream.close();
-
 	}
 
 }
